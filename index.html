@@ -1,30 +1,139 @@
-=<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kavya Sri D | Professional Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", sans-serif;
+        }
+
+        body {
+            background: #ffffff;
+            color: #0f172a;
+        }
+
+        /* HEADER */
+        header {
+            background: linear-gradient(135deg, #0284c7, #0369a1);
+            padding: 45px 20px;
+        }
+
+        .header-content {
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 40px;
+            color: #ffffff;
+        }
+
+        .role {
+            font-size: 18px;
+            margin: 8px 0 15px;
+            color: #e0f2fe;
+        }
+
+        .contact p {
+            font-size: 14px;
+            color: #e0f2fe;
+        }
+
+        /* SOCIAL LINKS */
+        .social-links {
+            margin-top: 15px;
+        }
+
+        .social-links a {
+            display: inline-block;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            padding: 8px 18px;
+            text-decoration: none;
+            background: #ffffff;
+            color: #0369a1;
+            border-radius: 20px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .social-links a:hover {
+            background: #e0f2fe;
+            transform: translateY(-2px);
+        }
+
+        /* MAIN CONTENT */
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #0284c7;
+            margin-bottom: 15px;
+            border-left: 5px solid #38bdf8;
+            padding-left: 10px;
+        }
+
+        /* SKILLS */
+        .skills span {
+            display: inline-block;
+            background: #f1f5f9;
+            margin: 6px;
+            padding: 8px 14px;
+            border-radius: 20px;
+            border: 1px solid #38bdf8;
+            font-size: 14px;
+        }
+
+        /* CARD */
+        .card {
+            background: #f8fafc;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+            border-left: 5px solid #38bdf8;
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #f1f5f9;
+            color: #475569;
+            font-size: 14px;
+        }
+    </style>
 </head>
+
 <body>
 
-<header class="header">
+<header>
     <div class="header-content">
-        <div class="details">
-            <h1>Kavya Sri D</h1>
-            <p class="role">Artificial Intelligence & Machine Learning Undergraduate</p>
+        <h1>Kavya Sri D</h1>
+        <p class="role">Artificial Intelligence & Machine Learning Undergraduate</p>
 
-            <div class="contact">
-                <p>📧 kavyasrid.al24@bitsathy.ac.in</p>
-                <p>📍 Sathyamangalam, Tamil Nadu</p>
-            </div>
+        <div class="contact">
+            <p>📧 kavyasrid.al24@bitsathy.ac.in</p>
+            <p>📍 Sathyamangalam, Tamil Nadu</p>
+        </div>
 
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/kavya-sri-d-852469354/" target="_blank">LinkedIn</a>
-                <a href="https://github.com/kavyasri261106" target="_blank">GitHub</a>
-                <a href="https://leetcode.com/u/fCxTwIr2i7/" target="_blank">LeetCode</a>
-                <a href="https://www.hackerrank.com/profile/kavyasrid_al24" target="_blank">HackerRank</a>
-            </div>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/kavya-sri-d-852469354/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/kavyasri261106" target="_blank">GitHub</a>
+            <a href="https://leetcode.com/u/fCxTwIr2i7/" target="_blank">LeetCode</a>
+            <a href="https://www.hackerrank.com/profile/kavyasrid_al24" target="_blank">HackerRank</a>
         </div>
     </div>
 </header>
@@ -94,8 +203,7 @@
         <div class="card">
             <h3>Personal Portfolio Website</h3>
             <p>
-                Designed and developed a professional portfolio website using HTML and CSS
-                to showcase skills, projects, and coding profiles.
+                Designed and developed a professional portfolio website using HTML and CSS.
             </p>
         </div>
     </section>
@@ -104,7 +212,7 @@
         <h2>Certifications & Workshops</h2>
         <div class="card">
             <p>✔ Artificial Intelligence & Data Science Workshops</p>
-            <p>✔ Digital Marketing & LinkedIn Profile Optimization Workshop</p>
+            <p>✔ Digital Marketing & LinkedIn Profile Optimization</p>
             <p>✔ Python Programming Training</p>
         </div>
     </section>
